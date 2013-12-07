@@ -1,7 +1,7 @@
 ansiblization project
 =====================
 
-Server configurations of various server setups put into source control.
+Server configurations of various setups put into source control.
 
 Two servers are:
 * [rukia]  162.219.4.102

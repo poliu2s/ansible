@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/var/01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/liuxuelun.yml" afterPath="$PROJECT_DIR$/tasks/liuxuelun.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/var/main.html" afterPath="$PROJECT_DIR$/files/var/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+            <state line="3" column="33" selection-start="78" selection-end="78" vertical-scroll-proportion="0.05061867">
               <folding />
             </state>
           </provider>
@@ -124,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="liuxuelun.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="liuxuelun.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="54" selection-start="445" selection-end="445" vertical-scroll-proportion="0.32058492">
+            <state line="19" column="54" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -344,10 +341,10 @@
         <option value="$PROJECT_DIR$/tasks/nlf.yml" />
         <option value="$PROJECT_DIR$/tasks/base.yml" />
         <option value="$PROJECT_DIR$/tasks/apache.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/files/var/01.html" />
         <option value="$PROJECT_DIR$/files/var/main.html" />
         <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -657,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/var/01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="427" column="0" selection-start="39661" selection-end="39661" vertical-scroll-proportion="-18.5">
@@ -860,7 +850,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="54" selection-start="445" selection-end="445" vertical-scroll-proportion="0.32058492">
+        <state line="19" column="54" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="78" selection-end="78" vertical-scroll-proportion="0.05061867">
           <folding />
         </state>
       </provider>
