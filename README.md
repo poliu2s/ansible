@@ -1,7 +1,7 @@
-ansiblization project
-=====================
+ansible repo
+============
 
-Server configurations of various setups put into source control.
+Server configurations of various setups put into source control. Using ansible 1.4.1.
 
 Two servers are:
 * [rukia]  162.219.4.102
