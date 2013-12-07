@@ -15,3 +15,6 @@
 
 - name: start nlf
   shell: forever start app.js chdir=/root/nlfinancials/
+
+- name: enable nlf on boot
+  shell: echo 'cd /root/nlfinancials/ && /usr/local/bin/forever start app.js' >> /etc/rc.local

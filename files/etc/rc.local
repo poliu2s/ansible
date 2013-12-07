@@ -1,0 +1,5 @@
+#!/bin/sh -e
+sh /etc/init.d/S97-setup.sh
+echo 600 > /sys/block/sda/device/timeout
+echo 600 > /sys/block/sr0/device/timeout
+test -f /etc/ssh/ssh_host_dsa_key || dpkg-reconfigure openssh-server

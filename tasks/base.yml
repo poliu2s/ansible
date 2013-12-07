@@ -20,3 +20,20 @@
 - name: fix hostname
   copy: src=files/hosts-{{ hostname }} dest=/etc/hosts
 
+- name: add rc.local
+  copy: src=files/etc/rc.local dest=/etc/rc.local
+
+- name: cloudatcost delete daily cron
+  shell: rm -rf /etc/cron.daily/*
+
+- name: fix dns auto-gen
+  copy: src=files/etc/resolvconf/resolv.conf.d/base dest=/etc/resolvconf/resolv.conf.d/base
+
+- name: dns auto-generated file
+  copy: src=files/etc/resolv.conf dest=/etc/resolv.conf
+
+#- name: cloudatcost config 1
+#  shell: echo 'echo 600 > /sys/block/sda/device/timeout' >> /etc/rc.local
+#
+#- name: cloudatcost config 2
+#  shell: echo 'echo 600> /sys/block/sr0/device/timeout' >> /etc/rc.local
