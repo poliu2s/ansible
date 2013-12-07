@@ -1,17 +1,20 @@
-- name: liuxuelun remove home files
+- name: lxl1
   file: path=/root/reveal.js state=absent
 
-- name: main1
+- name: lxl2
   file: path=/var/www/liuxuelun state=directory
 
-- name: main2
+- name: lxl3
   shell: git clone https://github.com/hakimel/reveal.js.git
 
-- name: liuxuelun cleanup
+- name: lxl4
   shell: rm -rf /var/www/liuxuelun
 
-- name: main3
+- name: lxl5
   shell: mv reveal.js/ /var/www/liuxuelun
 
-- name: main4
+- name: lxl6
   copy: src=files/var/main.html dest=/var/www/liuxuelun/index.html
+
+- name: lxl7
+  copy: src=files/var/01.html dest=/var/www/liuxuelun/01.html
