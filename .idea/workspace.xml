@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/apache.yml" afterPath="$PROJECT_DIR$/tasks/apache.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/base.yml" afterPath="$PROJECT_DIR$/tasks/base.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +21,7 @@
     <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390041774" ignored="false" />
     <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386387256071" ignored="false" />
     <file path="/index.jade" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386389675390" ignored="false" />
+    <file path="/README.md" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390647502" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,15 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/var/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/base.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,10 +118,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apache.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="apache.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/apache.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08436445">
+            <state line="5" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.1687289">
               <folding />
             </state>
           </provider>
@@ -157,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/files/etc/hostname-mikasa" />
         <option value="$PROJECT_DIR$/files/etc/hostname-rukia" />
         <option value="$PROJECT_DIR$/tasks/common.yml" />
         <option value="$PROJECT_DIR$/rukia.yml" />
@@ -173,6 +170,7 @@
         <option value="$PROJECT_DIR$/tasks/nlf.yml" />
         <option value="$PROJECT_DIR$/tasks/base.yml" />
         <option value="$PROJECT_DIR$/tasks/apache.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -413,11 +411,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rukia.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" />
@@ -508,7 +501,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/apache.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08436445">
+        <state line="5" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.1687289">
           <folding />
         </state>
       </provider>
