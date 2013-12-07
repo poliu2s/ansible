@@ -17,4 +17,9 @@
   copy: src=files/var/main.html dest=/var/www/liuxuelun/index.html
 
 - name: lxl7
-  copy: src=files/var/01.html dest=/var/www/liuxuelun/01.html
+  copy: src=files/var/{{ item }}.html dest=/var/www/liuxuelun/{{ item }}.html
+  with_items:
+  - 01
+  - 02
+  - 03
+  - 04
