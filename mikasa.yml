@@ -1,0 +1,14 @@
+---
+- hosts: mikasa
+  vars:
+    hostname: mikasa
+  user: root
+  sudo: yes
+  tasks:
+  - include: ./tasks/base.yml
+  - include: ./tasks/apache.yml
+  - include: ./tasks/node.yml
+
+  - include: ./tasks/liuxuelun.yml
+  - include: ./tasks/nlf.yml
+

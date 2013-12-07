@@ -1,0 +1,5 @@
+- name: install apache
+  command: sudo /usr/bin/apt-get -y install {{ item }}
+  with_items:
+  - apache2
+  - libapache2-mod-php5

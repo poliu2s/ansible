@@ -1,0 +1,17 @@
+- name: setup nlf
+  file: path=/root/nlfinancials state=absent
+
+- name: create nlf
+  shell: express nlfinancials
+
+- name: install pkgs
+  shell: npm install chdir=/root/nlfinancials/
+
+- name: add message
+  copy: src=files/web/nlf.js dest=/root/nlfinancials/routes/index.js
+
+- name: construction msg
+  copy: src=files/web/nlf.jade dest=/root/nlfinancials/views/index.jade
+
+- name: start nlf
+  shell: forever start app.js chdir=/root/nlfinancials/

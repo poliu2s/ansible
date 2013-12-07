@@ -1,0 +1,26 @@
+- name: update package list
+  apt: update_cache=yes upgrade=dist
+#  shell: apt-get update
+#
+#- name: upgrade packages
+#  shell: apt-get upgrade -y
+
+- name: install base pkgs
+  apt: pkg={{ item }} state=present
+  with_items:
+  - htop
+  - curl
+  - screen
+  - tree
+  - git
+  - nodejs
+  - daemon
+
+- name: setup authorized_keys
+  copy: src=./files/authorized_keys dest=/root/.ssh/authorized_keys
+
+- hostname: name={{ hostname }}
+
+- name: fix hostname
+  copy: src=files/hosts-{{ hostname }} dest=/etc/hosts
+

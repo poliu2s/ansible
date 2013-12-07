@@ -1,0 +1,9 @@
+---
+- hosts: rukia
+  vars:
+    hostname: rukia
+  user: root
+  sudo: yes
+  tasks:
+  - include: ./tasks/base.yml
+  - include: ./tasks/apache.yml
