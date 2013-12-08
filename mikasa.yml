@@ -2,6 +2,7 @@
 - hosts: mikasa
   vars:
     hostname: mikasa
+    nlf: false
   user: root
   sudo: yes
   tasks:
@@ -10,5 +11,6 @@
   - include: ./tasks/node.yml
 
   - include: ./tasks/liuxuelun.yml
-#  - include: ./tasks/nlf.yml
+  - include: ./tasks/nlf.yml
+    when: nlf=='true'
 

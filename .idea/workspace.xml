@@ -2,29 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/etc/resolvconf/resolv.conf.d/base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/etc/rc.local" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/etc/resolvconf/resolv.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/base.yml" afterPath="$PROJECT_DIR$/tasks/base.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/etc/resolvconf/resolv.conf" afterPath="$PROJECT_DIR$/files/etc/resolv.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/liuxuelun.yml" afterPath="$PROJECT_DIR$/tasks/liuxuelun.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mikasa.yml" afterPath="$PROJECT_DIR$/mikasa.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/nlf.yml" afterPath="$PROJECT_DIR$/tasks/nlf.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/mikasa.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386401616160" ignored="false" />
+    <file path="/mikasa.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386462918597" ignored="false" />
     <file path="/apache.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390567414" ignored="false" />
     <file path="/hosts" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386300088160" ignored="false" />
     <file path="/hosts-rukia" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311959015" ignored="false" />
     <file path="/hostname-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386300319120" ignored="false" />
     <file path="/hostname-rukia" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386300331675" ignored="false" />
     <file path="/rukia.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386302680017" ignored="false" />
-    <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386459236425" ignored="false" />
+    <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386463043120" ignored="false" />
     <file path="/hosts-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311954358" ignored="false" />
     <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386455521327" ignored="false" />
     <file path="$PROJECT_DIR$/../liuxuelun/index.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386316965026" ignored="false" />
     <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386389055647" ignored="false" />
-    <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386403653221" ignored="false" />
-    <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386402825644" ignored="false" />
+    <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386462600873" ignored="false" />
+    <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386463362752" ignored="false" />
     <file path="/index.jade" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386389675390" ignored="false" />
     <file path="/README.md" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390647502" ignored="false" />
     <file path="/main.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386402099759" ignored="false" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="mikasa.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mikasa.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="liuxuelun.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="liuxuelun.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.6476684">
               <folding />
             </state>
           </provider>
@@ -83,14 +82,14 @@
       <file leaf-file-name="base.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/base.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+            <state line="17" column="19" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="resolv.conf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/etc/resolvconf/resolv.conf">
+        <entry file="file://$PROJECT_DIR$/files/etc/resolv.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="18" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
               <folding />
@@ -101,7 +100,7 @@
       <file leaf-file-name="rc.local" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/etc/rc.local">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+            <state line="4" column="68" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +109,7 @@
       <file leaf-file-name="nlf.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+            <state line="15" column="17" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="node.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/node.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="315" selection-end="315" vertical-scroll-proportion="0.30737704">
+            <state line="15" column="13" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,22 +170,22 @@
         <option value="$PROJECT_DIR$/files/var/03.html" />
         <option value="$PROJECT_DIR$/files/var/04.html" />
         <option value="$PROJECT_DIR$/files/var/main.html" />
-        <option value="$PROJECT_DIR$/mikasa.yml" />
-        <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
-        <option value="$PROJECT_DIR$/files/etc/rc.local" />
-        <option value="$PROJECT_DIR$/tasks/nlf.yml" />
         <option value="$PROJECT_DIR$/files/etc/base" />
         <option value="$PROJECT_DIR$/files/etc/resolvconf/resolv.conf" />
+        <option value="$PROJECT_DIR$/mikasa.yml" />
+        <option value="$PROJECT_DIR$/files/etc/rc.local" />
+        <option value="$PROJECT_DIR$/tasks/nlf.yml" />
         <option value="$PROJECT_DIR$/tasks/base.yml" />
+        <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="22" />
-    <option name="width" value="1393" />
-    <option name="height" value="878" />
+    <option name="x" value="420" />
+    <option name="y" value="-1058" />
+    <option name="width" value="960" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -275,6 +274,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="var" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -319,32 +336,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ansible" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ansible" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resolvconf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resolv.conf.d" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -360,6 +351,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/etc" />
       <recent name="$PROJECT_DIR$/files/etc/resolvconf/resolv.conf.d" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/tasks" />
@@ -402,19 +394,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="22" width="1393" height="878" extended-state="6" />
+    <frame x="420" y="-1058" width="960" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17594655" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25929978" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -537,16 +529,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mikasa.yml">
+    <entry file="file://$PROJECT_DIR$/files/etc/resolv.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+        <state line="2" column="18" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -558,37 +543,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/etc/resolvconf/resolv.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/etc/rc.local">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="4" column="68" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/base.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+        <state line="17" column="19" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+        <state line="15" column="17" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/node.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="315" selection-end="315" vertical-scroll-proportion="0.30737704">
+        <state line="15" column="13" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mikasa.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.6476684">
           <folding />
         </state>
       </provider>
