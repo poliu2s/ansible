@@ -13,24 +13,31 @@
   - daemon
 
 - name: setup authorized_keys
-  copy: src=./files/authorized_keys dest=/root/.ssh/authorized_keys
+  copy: src=./files/authorized_keys dest={{ pwd }}/.ssh/authorized_keys
+  when: cloud
 
 - hostname: name={{ hostname }}
+  when: cloud
 
 - name: fix hostname
   copy: src=files/hosts-{{ hostname }} dest=/etc/hosts
+  when: cloud
 
 - name: add rc.local
   copy: src=files/etc/rc.local dest=/etc/rc.local
+  when: cloud
 
 - name: cloudatcost delete daily cron
   shell: rm -rf /etc/cron.daily/*
+  when: cloud
 
 - name: fix dns auto-gen
   copy: src=files/etc/resolvconf/resolv.conf.d/base dest=/etc/resolvconf/resolv.conf.d/base
+  when: cloud
 
 - name: dns auto-generated file
   copy: src=files/etc/resolv.conf dest=/etc/resolv.conf
+  when: cloud
 
 #- name: cloudatcost config 1
 #  shell: echo 'echo 600 > /sys/block/sda/device/timeout' >> /etc/rc.local

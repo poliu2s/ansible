@@ -2,6 +2,8 @@
 - hosts: rukia
   vars:
     hostname: rukia
+    cloud: true
+    pwd: /root
   user: root
   sudo: yes
   tasks:

@@ -1,0 +1,14 @@
+---
+- hosts: vagrant
+  vars:
+    hostname: precise64
+    cloud: false
+    pwd: /home/vagrant
+    nlf: false
+  user: vagrant
+  sudo: yes
+  tasks:
+  - include: ./tasks/base.yml
+  - include: ./tasks/apache.yml
+  - include: ./tasks/node.yml
+

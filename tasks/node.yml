@@ -3,7 +3,7 @@
   shell: wget https://npmjs.org/install.sh
 
 - name: install node pt 2
-  shell: bash /root/install.sh
+  shell: bash {{ pwd }}/install.sh
 
 - name: install node pt 3
   shell: npm install -g n
@@ -18,4 +18,4 @@
   - forever
 
 - name: node cleanup
-  shell: rm /root/install.sh
+  shell: rm {{ pwd }}/install.sh
