@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/base.yml" afterPath="$PROJECT_DIR$/tasks/base.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hosts" afterPath="$PROJECT_DIR$/hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mikasa.yml" afterPath="$PROJECT_DIR$/mikasa.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/node.yml" afterPath="$PROJECT_DIR$/tasks/node.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rukia.yml" afterPath="$PROJECT_DIR$/rukia.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant_ansible_inventory_default" afterPath="" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,15 +77,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vagrant_ansible_inventory_default" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vagrant_ansible_inventory_default">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="49" selection-end="58" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hosts" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hosts">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,7 +107,7 @@
       <file leaf-file-name="base.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks/base.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="187" selection-end="187" vertical-scroll-proportion="0.17123288">
+            <state line="17" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.29109588">
               <folding />
             </state>
           </provider>
@@ -310,13 +295,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="414" y="-1058" width="966" height="1058" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26956522" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26956522" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -436,13 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant_ansible_inventory_default">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="49" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
@@ -487,7 +465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/base.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="187" selection-end="187" vertical-scroll-proportion="0.17123288">
+        <state line="17" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.29109588">
           <folding />
         </state>
       </provider>
