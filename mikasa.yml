@@ -11,8 +11,12 @@
   - include: ./tasks/base.yml
   - include: ./tasks/apache.yml
   - include: ./tasks/node.yml
+  - include: ./tasks/jenkins.yml
 
   - include: ./tasks/liuxuelun.yml
   - include: ./tasks/nlf.yml
     when: nlf
+
+
+
 
