@@ -8,10 +8,10 @@
   shell: npm install chdir=/root/nlfinancials/
 
 - name: add message
-  copy: src=files/web/nlf.js dest=/root/nlfinancials/routes/index.js
+  copy: src=files/web/nlf/nlf.js dest=/root/nlfinancials/routes/index.js
 
 - name: construction msg
-  copy: src=files/web/nlf.jade dest=/root/nlfinancials/views/index.jade
+  copy: src=files/web/nlf/nlf.jade dest=/root/nlfinancials/views/index.jade
 
 - name: start nlf
   shell: forever start app.js chdir=/root/nlfinancials/

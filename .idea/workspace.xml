@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/authorized_keys-vagrant" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/var/www/wordpress/wordpress-mysql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/base.yml" afterPath="$PROJECT_DIR$/tasks/base.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/mysql.yml" afterPath="$PROJECT_DIR$/tasks/mysql.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rukia.yml" afterPath="$PROJECT_DIR$/rukia.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vagrant.yml" afterPath="$PROJECT_DIR$/vagrant.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/wordpress.yml" afterPath="$PROJECT_DIR$/tasks/wordpress.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/var/01.html" afterPath="$PROJECT_DIR$/files/web/lxl/01.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/var/02.html" afterPath="$PROJECT_DIR$/files/web/lxl/02.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/var/03.html" afterPath="$PROJECT_DIR$/files/web/lxl/03.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/var/04.html" afterPath="$PROJECT_DIR$/files/web/lxl/04.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/var/main.html" afterPath="$PROJECT_DIR$/files/web/lxl/main.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/var/template.html" afterPath="$PROJECT_DIR$/files/web/lxl/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/web/nlf.jade" afterPath="$PROJECT_DIR$/files/web/nlf/nlf.jade" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/files/web/nlf.js" afterPath="$PROJECT_DIR$/files/web/nlf/nlf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/liuxuelun.yml" afterPath="$PROJECT_DIR$/tasks/liuxuelun.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/nlf.yml" afterPath="$PROJECT_DIR$/tasks/nlf.yml" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
     <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386525421174" ignored="false" />
     <file path="$PROJECT_DIR$/../liuxuelun/index.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386316965026" ignored="false" />
     <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386534879060" ignored="false" />
-    <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386462600873" ignored="false" />
-    <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386463362752" ignored="false" />
+    <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575239150" ignored="false" />
+    <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575304020" ignored="false" />
     <file path="/index.jade" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386389675390" ignored="false" />
     <file path="/README.md" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390647502" ignored="false" />
     <file path="/main.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386402099759" ignored="false" />
@@ -74,10 +72,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rukia.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="rukia.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rukia.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.23622048">
+            <state line="13" column="24" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nlf.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liuxuelun.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="498" selection-end="498" vertical-scroll-proportion="0.35433072">
               <folding />
             </state>
           </provider>
@@ -96,15 +112,6 @@
         <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wordpress-mysql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wordpress-mysql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,15 +153,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/var/01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -174,8 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
-        <option value="$PROJECT_DIR$/inventories/hosts" />
         <option value="$PROJECT_DIR$/projects/Vagrantfile" />
         <option value="$PROJECT_DIR$/vagrant_ansible_inventory_default" />
         <option value="$PROJECT_DIR$/hosts" />
@@ -190,6 +186,8 @@
         <option value="$PROJECT_DIR$/tasks/wordpress.yml" />
         <option value="$PROJECT_DIR$/tasks/mysql.yml" />
         <option value="$PROJECT_DIR$/rukia.yml" />
+        <option value="$PROJECT_DIR$/tasks/nlf.yml" />
+        <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
       </list>
     </option>
   </component>
@@ -287,7 +285,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lxl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,54 +326,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ansible" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ansible" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ansible" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ansible" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpmyadmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,11 +344,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/web/lxl" />
+      <recent name="$PROJECT_DIR$/files/web" />
       <recent name="$PROJECT_DIR$/files/var/www/wordpress" />
       <recent name="$PROJECT_DIR$/files/var/www" />
       <recent name="$PROJECT_DIR$/files/etc/phpmyadmin" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/inventories" />
     </key>
   </component>
   <component name="RunManager">
@@ -424,13 +396,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="414" y="-1058" width="966" height="1058" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26956522" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26956522" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -506,20 +478,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mikasa.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/node.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
@@ -541,14 +499,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/var/template.html">
+    <entry file="file://$PROJECT_DIR$/files/web/lxl/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="54" selection-start="737" selection-end="737" vertical-scroll-proportion="0.07042254">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/var/01.html">
+    <entry file="file://$PROJECT_DIR$/files/web/lxl/01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -613,7 +571,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rukia.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.23622048">
+        <state line="13" column="24" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="498" selection-end="498" vertical-scroll-proportion="0.35433072">
           <folding />
         </state>
       </provider>
