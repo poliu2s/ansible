@@ -11,10 +11,15 @@
   - git
   - nodejs
   - daemon
+  - vim
 
 - name: setup authorized_keys
   copy: src=./files/authorized_keys dest={{ pwd }}/.ssh/authorized_keys
   when: cloud
+
+- name: vagrant keys
+  copy: src=./files/authorized_keys-vagrant dest={{ pwd }}/.ssh/authorized_keys
+  when: not cloud
 
 - hostname: name={{ hostname }}
   when: cloud

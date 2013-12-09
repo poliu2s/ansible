@@ -1,0 +1,19 @@
+- name: download wp
+  shell: wget http://wordpress.org/latest.tar.gz
+
+- name: unzip tar
+  shell: tar -xvzf {{ pwd }}/latest.tar.gz
+
+- name: mv wp
+  shell: mv {{ pwd }}/wordpress /var/www/wordpress
+
+- name: setup mysql wp
+  copy: src=files/var/www/wordpress/wordpress-mysql dest=/var/www/wordpress/wordpress-mysql
+
+- name: mysql script
+  shell: mysql -u root < /var/www/wordpress/wordpress-mysql
+
+- name: load wp-config.php
+  copy: src=files/var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php
+  notify:
+  - restart apache

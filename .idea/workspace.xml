@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant_ansible_inventory_default" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/authorized_keys-vagrant" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/var/www/wordpress/wordpress-mysql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/base.yml" afterPath="$PROJECT_DIR$/tasks/base.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/mysql.yml" afterPath="$PROJECT_DIR$/tasks/mysql.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rukia.yml" afterPath="$PROJECT_DIR$/rukia.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vagrant.yml" afterPath="$PROJECT_DIR$/vagrant.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/wordpress.yml" afterPath="$PROJECT_DIR$/tasks/wordpress.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,20 +23,24 @@
     <file path="/hosts-rukia" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311959015" ignored="false" />
     <file path="/hostname-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386300319120" ignored="false" />
     <file path="/hostname-rukia" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386300331675" ignored="false" />
-    <file path="/rukia.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386529642681" ignored="false" />
-    <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386529660603" ignored="false" />
+    <file path="/rukia.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575012001" ignored="false" />
+    <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386535643269" ignored="false" />
     <file path="/hosts-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311954358" ignored="false" />
     <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386525421174" ignored="false" />
     <file path="$PROJECT_DIR$/../liuxuelun/index.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386316965026" ignored="false" />
-    <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386529452954" ignored="false" />
+    <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386534879060" ignored="false" />
     <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386462600873" ignored="false" />
     <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386463362752" ignored="false" />
     <file path="/index.jade" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386389675390" ignored="false" />
     <file path="/README.md" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390647502" ignored="false" />
     <file path="/main.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386402099759" ignored="false" />
     <file path="/02.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386401770293" ignored="false" />
-    <file path="/Vagrantfile" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386528398889" ignored="false" />
-    <file path="/vagrant.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386529394627" ignored="false" />
+    <file path="/Vagrantfile" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386534108502" ignored="false" />
+    <file path="/vagrant.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386537852568" ignored="false" />
+    <file path="/wordpress.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386574942453" ignored="false" />
+    <file path="/mysql.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386573461069" ignored="false" />
+    <file path="/config.inc.php" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386557126410" ignored="false" />
+    <file path="/wordpress-mysql" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386573208000" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,82 +65,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mikasa.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mikasa.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="vagrant.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vagrant.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="195" selection-end="371" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vagrantfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrantfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hosts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hosts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="liuxuelun.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rukia.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="rukia.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rukia.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="14" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.23622048">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wordpress.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/wordpress.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="7" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordpress-mysql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wordpress-mysql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/base.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.29109588">
+            <state line="32" column="13" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nlf.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
+      <file leaf-file-name="authorized_keys-vagrant" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/authorized_keys-vagrant">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="55" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+            <state line="2" column="743" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/node.yml">
+      <file leaf-file-name="mysql.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/mysql.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+            <state line="14" column="2" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.inc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/etc/phpmyadmin/config.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="7" selection-start="856" selection-end="856" vertical-scroll-proportion="-7.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/var/01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -150,22 +174,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/files/var/main.html" />
-        <option value="$PROJECT_DIR$/files/etc/base" />
-        <option value="$PROJECT_DIR$/files/etc/resolvconf/resolv.conf" />
-        <option value="$PROJECT_DIR$/files/etc/rc.local" />
-        <option value="$PROJECT_DIR$/tasks/nlf.yml" />
         <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
         <option value="$PROJECT_DIR$/inventories/hosts" />
         <option value="$PROJECT_DIR$/projects/Vagrantfile" />
         <option value="$PROJECT_DIR$/vagrant_ansible_inventory_default" />
         <option value="$PROJECT_DIR$/hosts" />
-        <option value="$PROJECT_DIR$/Vagrantfile" />
-        <option value="$PROJECT_DIR$/vagrant.yml" />
-        <option value="$PROJECT_DIR$/tasks/node.yml" />
         <option value="$PROJECT_DIR$/mikasa.yml" />
-        <option value="$PROJECT_DIR$/rukia.yml" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
+        <option value="$PROJECT_DIR$/tasks/node.yml" />
+        <option value="$PROJECT_DIR$/files/authorized_keys-vagrant" />
         <option value="$PROJECT_DIR$/tasks/base.yml" />
+        <option value="$PROJECT_DIR$/vagrant.yml" />
+        <option value="$PROJECT_DIR$/files/etc/phpmyadmin/config.inc.php" />
+        <option value="$PROJECT_DIR$/files/wordpress-mysql" />
+        <option value="$PROJECT_DIR$/tasks/wordpress.yml" />
+        <option value="$PROJECT_DIR$/tasks/mysql.yml" />
+        <option value="$PROJECT_DIR$/rukia.yml" />
       </list>
     </option>
   </component>
@@ -235,6 +259,104 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpmyadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -250,14 +372,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/var/www/wordpress" />
+      <recent name="$PROJECT_DIR$/files/var/www" />
+      <recent name="$PROJECT_DIR$/files/etc/phpmyadmin" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/inventories" />
-      <recent name="$PROJECT_DIR$/files/etc" />
-      <recent name="$PROJECT_DIR$/files/etc/resolvconf/resolv.conf.d" />
-      <recent name="$PROJECT_DIR$/files" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -295,13 +424,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="414" y="-1058" width="966" height="1058" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26956522" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26956522" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -377,46 +506,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/files/var/02.html">
+    <entry file="file://$PROJECT_DIR$/mikasa.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/var/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="35" selection-start="6299" selection-end="6299" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/var/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="6" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/etc/resolv.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/etc/resolvconf/resolv.conf.d/base">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/etc/rc.local">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="68" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+        <state line="5" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="55" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/node.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/apache.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -428,44 +541,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+    <entry file="file://$PROJECT_DIR$/files/var/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+        <state line="20" column="54" selection-start="737" selection-end="737" vertical-scroll-proportion="0.07042254">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vagrant.yml">
+    <entry file="file://$PROJECT_DIR$/files/var/01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mikasa.yml">
+    <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wordpress-mysql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rukia.yml">
+    <entry file="file://$PROJECT_DIR$/files/authorized_keys-vagrant">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="2" column="743" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/node.yml">
+    <entry file="file://$PROJECT_DIR$/files/etc/phpmyadmin/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+        <state line="28" column="7" selection-start="856" selection-end="856" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/base.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.29109588">
+        <state line="32" column="13" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/mysql.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/wordpress.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="195" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rukia.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.23622048">
           <folding />
         </state>
       </provider>

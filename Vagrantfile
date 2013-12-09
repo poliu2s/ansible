@@ -3,7 +3,6 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 80, host: 8080
 
   #config.vm.network :public_network, bridge: "en0: Wi-Fi (AirPort)"
-
   config.vm.network :private_network, ip: "192.168.2.84"
 
   config.vm.provider :virtualbox do |vb|
@@ -14,6 +13,6 @@ Vagrant.configure("2") do |config|
     ansible.playbook = "vagrant.yml"
     ansible.inventory_path = "hosts"
     #ansible.verbose = 'vvvv'
-    ansible.host_key_checking = "false"
+    #ansible.host_key_checking = "false"
   end
 end
