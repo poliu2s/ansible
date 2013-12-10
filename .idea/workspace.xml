@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/jenkins.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mikasa.yml" afterPath="$PROJECT_DIR$/mikasa.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/web/lxl/main.html" afterPath="$PROJECT_DIR$/files/web/lxl/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ansible.iws" />
@@ -17,7 +16,7 @@
     <file path="/rukia.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575012001" ignored="false" />
     <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386535643269" ignored="false" />
     <file path="/hosts-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311954358" ignored="false" />
-    <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386525421174" ignored="false" />
+    <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386650033339" ignored="false" />
     <file path="$PROJECT_DIR$/../liuxuelun/index.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386316965026" ignored="false" />
     <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386534879060" ignored="false" />
     <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575239150" ignored="false" />
@@ -57,15 +56,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vagrant.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vagrant.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="195" selection-end="371" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rukia.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rukia.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,15 +78,6 @@
         <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wordpress.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/wordpress.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="7" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,10 +110,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mikasa.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mikasa.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mikasa.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.30371204">
+            <state line="7" column="2" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/web/lxl/01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/files/web/lxl/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="0.13392857">
               <folding />
             </state>
           </provider>
@@ -166,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vagrant_ansible_inventory_default" />
         <option value="$PROJECT_DIR$/hosts" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/tasks/node.yml" />
@@ -182,15 +180,16 @@
         <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
         <option value="$PROJECT_DIR$/tasks/jenkins.yml" />
         <option value="$PROJECT_DIR$/mikasa.yml" />
+        <option value="$PROJECT_DIR$/files/web/lxl/main.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="414" />
-    <option name="y" value="-1058" />
-    <option name="width" value="966" />
-    <option name="height" value="1058" />
+    <option name="x" value="47" />
+    <option name="y" value="22" />
+    <option name="width" value="1393" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -218,7 +217,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,8 +263,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lxl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,14 +370,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="414" y="-1058" width="966" height="1058" extended-state="0" />
+    <frame x="47" y="22" width="1393" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26956522" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27839643" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -414,46 +453,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/files/web/lxl/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="737" selection-end="737" vertical-scroll-proportion="0.07042254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/web/lxl/01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wordpress-mysql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/etc/phpmyadmin/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="856" selection-end="856" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
+        <state line="28" column="7" selection-start="856" selection-end="856" vertical-scroll-proportion="-7.5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/var/www/wordpress/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/mysql.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="2" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/wordpress.yml">
@@ -498,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/apache.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/base.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="28" selection-end="64" vertical-scroll-proportion="0.0">
@@ -519,9 +529,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/apache.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mikasa.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.30371204">
+        <state line="7" column="2" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/web/lxl/01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/web/lxl/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="0.13392857">
           <folding />
         </state>
       </provider>
