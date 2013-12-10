@@ -23,3 +23,6 @@
   - 2
   - 3
   - 4
+
+- name: lxl8
+  copy: src=files/web/lxl/default.css dest=/var/www/liuxuelun/css/default.css
