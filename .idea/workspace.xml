@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/web/lxl/01.html" afterPath="$PROJECT_DIR$/files/web/lxl/01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/web/lxl/main.html" afterPath="$PROJECT_DIR$/files/web/lxl/main.html" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
