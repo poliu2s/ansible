@@ -14,8 +14,8 @@
   - include: ./tasks/jenkins.yml
 
   - include: ./tasks/liuxuelun.yml
-  - include: ./tasks/nlf.yml
-    when: nlf
+#  - include: ./tasks/nlf.yml
+#    when: nlf
 
 
 

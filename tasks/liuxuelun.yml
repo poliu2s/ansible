@@ -25,4 +25,4 @@
   - 4
 
 - name: lxl8
-  copy: src=files/web/lxl/default.css dest=/var/www/liuxuelun/css/default.css
+  copy: src=files/web/lxl/default.css dest=/var/www/liuxuelun/css/theme/default.css

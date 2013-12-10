@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/liuxuelun.yml" afterPath="$PROJECT_DIR$/tasks/liuxuelun.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mikasa.yml" afterPath="$PROJECT_DIR$/mikasa.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/mikasa.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386577708530" ignored="false" />
+    <file path="/mikasa.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386659469668" ignored="false" />
     <file path="/apache.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390567414" ignored="false" />
     <file path="/hosts" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386487951835" ignored="false" />
     <file path="/hosts-rukia" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311959015" ignored="false" />
@@ -16,11 +17,11 @@
     <file path="/rukia.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575012001" ignored="false" />
     <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386535643269" ignored="false" />
     <file path="/hosts-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311954358" ignored="false" />
-    <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386650033339" ignored="false" />
+    <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386659713448" ignored="false" />
     <file path="$PROJECT_DIR$/../liuxuelun/index.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386316965026" ignored="false" />
     <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386534879060" ignored="false" />
     <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575239150" ignored="false" />
-    <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386659228916" ignored="false" />
+    <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386659457788" ignored="false" />
     <file path="/index.jade" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386389675390" ignored="false" />
     <file path="/README.md" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390647502" ignored="false" />
     <file path="/main.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386402099759" ignored="false" />
@@ -56,19 +57,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nlf.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nlf.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.40948275">
+            <state line="19" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="liuxuelun.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="liuxuelun.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+            <state line="19" column="50" selection-start="445" selection-end="445" vertical-scroll-proportion="0.40197462">
               <folding />
             </state>
           </provider>
@@ -104,7 +105,7 @@
       <file leaf-file-name="mikasa.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mikasa.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="128" selection-end="288" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,7 +114,7 @@
       <file leaf-file-name="01.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/web/lxl/01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="-9.375">
+            <state line="14" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,7 +132,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/web/lxl/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="88" selection-end="88" vertical-scroll-proportion="-3.75">
+            <state line="6" column="26" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,9 +187,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="468" />
+    <option name="x" value="47" />
     <option name="y" value="22" />
-    <option name="width" value="972" />
+    <option name="width" value="1393" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -217,6 +218,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,7 +307,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,8 +315,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -370,14 +371,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="468" y="22" width="972" height="878" extended-state="6" />
+    <frame x="47" y="22" width="1393" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28401726" sideWeight="0.9986842" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2887899" sideWeight="0.9986842" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -519,14 +520,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/files/web/lxl/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="88" selection-end="88" vertical-scroll-proportion="-3.75">
+        <state line="6" column="26" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/web/lxl/01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="-9.375">
+        <state line="14" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -538,23 +539,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mikasa.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="128" selection-end="288" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/liuxuelun.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/nlf.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.40948275">
+        <state line="19" column="50" selection-start="445" selection-end="445" vertical-scroll-proportion="0.40197462">
           <folding />
         </state>
       </provider>
