@@ -17,3 +17,6 @@
   copy: src=files/var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php
   notify:
   - restart apache
+
+- name: add ssh to install plugins
+  apt: pkg=libssh2-php state=present
