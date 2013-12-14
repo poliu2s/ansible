@@ -10,7 +10,6 @@
   - include: ./tasks/base.yml
   - include: ./tasks/apache.yml
   - include: ./tasks/node.yml
-
   - include: ./tasks/mysql.yml
   - include: ./tasks/wordpress.yml
 

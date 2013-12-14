@@ -12,6 +12,7 @@
 
 - name: mysql script
   shell: mysql -u root < /var/www/wordpress/wordpress-mysql
+  ignore_errors: yes
 
 - name: load wp-config.php
   copy: src=files/var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php

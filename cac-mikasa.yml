@@ -13,8 +13,8 @@
   - include: ./tasks/node.yml
   - include: ./tasks/jenkins.yml
 
-  - include: ./tasks/liuxuelun.yml
-#  - include: ./tasks/nlf.yml
+  - include: ./projects/liuxuelun.yml
+#  - include: ./projects/nlf.yml
 #    when: nlf
 
 

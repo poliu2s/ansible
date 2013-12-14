@@ -25,7 +25,7 @@
   when: cloud
 
 - name: fix hostname
-  copy: src=files/hosts-{{ hostname }} dest=/etc/hosts
+  template: src=files/hosts.j2 dest=/etc/hosts
   when: cloud
 
 - name: add rc.local
