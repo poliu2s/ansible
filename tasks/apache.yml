@@ -1,4 +1,4 @@
-- name: install apache
+- name: apache
   apt: pkg={{ item }}
   with_items:
   - apache2

@@ -1,4 +1,4 @@
-- name: install mysql
+- name: mysql
   apt: pkg={{ item }}
   with_items:
   - mysql-server

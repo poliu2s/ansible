@@ -1,4 +1,4 @@
-- name: get jenkins
+- name: jenkins
   shell: wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 
 - name: jenkins 2

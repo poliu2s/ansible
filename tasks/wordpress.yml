@@ -1,4 +1,4 @@
-- name: download wp
+- name: wordpress
   shell: wget http://wordpress.org/latest.tar.gz
 
 - name: unzip tar

@@ -1,5 +1,4 @@
-# Install Node
-- name: install node pt 1
+- name: node
   shell: wget https://npmjs.org/install.sh
 
 - name: install node pt 2

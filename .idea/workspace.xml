@@ -2,31 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/hosts-mikasa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/hosts-rukia" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/files/hosts-hinata" afterPath="$PROJECT_DIR$/files/hosts.j2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/liuxuelun.yml" afterPath="$PROJECT_DIR$/projects/liuxuelun.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/nlf.yml" afterPath="$PROJECT_DIR$/projects/nlf.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/apache.yml" afterPath="$PROJECT_DIR$/tasks/apache.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/base.yml" afterPath="$PROJECT_DIR$/tasks/base.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cac-mikasa.yml" afterPath="$PROJECT_DIR$/cac-mikasa.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cac-rukia.yml" afterPath="$PROJECT_DIR$/cac-rukia.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/jenkins.yml" afterPath="$PROJECT_DIR$/tasks/jenkins.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/mysql.yml" afterPath="$PROJECT_DIR$/tasks/mysql.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/node.yml" afterPath="$PROJECT_DIR$/tasks/node.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/wordpress.yml" afterPath="$PROJECT_DIR$/tasks/wordpress.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ansible.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/mikasa.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386659469668" ignored="false" />
-    <file path="/apache.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386390567414" ignored="false" />
+    <file path="/apache.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387065088882" ignored="false" />
     <file path="/hosts" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387064105732" ignored="false" />
     <file path="/hosts-rukia" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311959015" ignored="false" />
     <file path="/hostname-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386300319120" ignored="false" />
     <file path="/hostname-rukia" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386300331675" ignored="false" />
     <file path="/rukia.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575012001" ignored="false" />
-    <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387064144190" ignored="false" />
+    <file path="/base.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387065102190" ignored="false" />
     <file path="/hosts-mikasa" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386311954358" ignored="false" />
     <file path="/Dummy.txt" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387063253257" ignored="false" />
     <file path="$PROJECT_DIR$/../liuxuelun/index.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386316965026" ignored="false" />
-    <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386534879060" ignored="false" />
+    <file path="/node.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387065070254" ignored="false" />
     <file path="/nlf.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386575239150" ignored="false" />
     <file path="/liuxuelun.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386659457788" ignored="false" />
     <file path="/index.jade" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386389675390" ignored="false" />
@@ -35,14 +33,14 @@
     <file path="/02.html" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386401770293" ignored="false" />
     <file path="/Vagrantfile" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386534108502" ignored="false" />
     <file path="/vagrant.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386537852568" ignored="false" />
-    <file path="/wordpress.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387064490505" ignored="false" />
+    <file path="/wordpress.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387065077959" ignored="false" />
     <file path="/mysql.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386573461069" ignored="false" />
     <file path="/config.inc.php" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386557126410" ignored="false" />
     <file path="/wordpress-mysql" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386573208000" ignored="false" />
     <file path="/jenkins.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1386577631088" ignored="false" />
     <file path="/cac-hinata.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387000923046" ignored="false" />
     <file path="/hosts-hinata" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387002678161" ignored="false" />
-    <file path="/cac-mikasa.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387064549398" ignored="false" />
+    <file path="/cac-mikasa.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1387064926827" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cac-hinata.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cac-hinata.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wordpress.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/wordpress.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +77,16 @@
       <file leaf-file-name="mysql.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/mysql.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jenkins.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/jenkins.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,25 +95,43 @@
       <file leaf-file-name="node.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/node.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+            <state line="6" column="14" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cac-mikasa.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cac-mikasa.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cac-mikasa.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.528914">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hosts.j2" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/hosts.j2">
+      <file leaf-file-name="cac-hinata.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cac-hinata.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="34" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="274" selection-end="352" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liuxuelun.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/liuxuelun.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="50" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nlf.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/nlf.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,16 +140,16 @@
       <file leaf-file-name="base.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/base.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+            <state line="3" column="20" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cac-rukia.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cac-rukia.yml">
+      <file leaf-file-name="apache.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/apache.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="264" selection-end="264" vertical-scroll-proportion="0.26639345">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,10 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/rukia.yml" />
-        <option value="$PROJECT_DIR$/tasks/nlf.yml" />
-        <option value="$PROJECT_DIR$/tasks/jenkins.yml" />
-        <option value="$PROJECT_DIR$/files/web/lxl/main.html" />
         <option value="$PROJECT_DIR$/files/web/lxl/01.html" />
         <option value="$PROJECT_DIR$/files/web/lxl/default.css" />
         <option value="$PROJECT_DIR$/tasks/liuxuelun.yml" />
@@ -170,10 +182,14 @@
         <option value="$PROJECT_DIR$/files/hosts-hinata" />
         <option value="$PROJECT_DIR$/cac-hinata.yml" />
         <option value="$PROJECT_DIR$/files/hosts" />
-        <option value="$PROJECT_DIR$/tasks/base.yml" />
-        <option value="$PROJECT_DIR$/tasks/wordpress.yml" />
-        <option value="$PROJECT_DIR$/cac-mikasa.yml" />
         <option value="$PROJECT_DIR$/cac-rukia.yml" />
+        <option value="$PROJECT_DIR$/tasks/mysql.yml" />
+        <option value="$PROJECT_DIR$/tasks/jenkins.yml" />
+        <option value="$PROJECT_DIR$/tasks/node.yml" />
+        <option value="$PROJECT_DIR$/tasks/wordpress.yml" />
+        <option value="$PROJECT_DIR$/tasks/apache.yml" />
+        <option value="$PROJECT_DIR$/tasks/base.yml" />
+        <option value="$PROJECT_DIR$/cac-mikasa.yml" />
       </list>
     </option>
   </component>
@@ -253,7 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,16 +422,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/nlf.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/liuxuelun.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/web/lxl/01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
@@ -451,51 +457,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/base.yml">
+    <entry file="file://$PROJECT_DIR$/cac-rukia.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/node.yml">
+    <entry file="file://$PROJECT_DIR$/projects/nlf.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+        <state line="19" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/liuxuelun.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="50" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/mysql.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/jenkins.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/node.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/wordpress.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cac-mikasa.yml">
+    <entry file="file://$PROJECT_DIR$/tasks/apache.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/base.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cac-hinata.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="274" selection-end="352" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cac-rukia.yml">
+    <entry file="file://$PROJECT_DIR$/cac-mikasa.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="264" selection-end="264" vertical-scroll-proportion="0.26639345">
+        <state line="25" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.528914">
           <folding />
         </state>
       </provider>

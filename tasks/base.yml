@@ -1,4 +1,4 @@
-- name: update package list
+- name: base
   apt: update_cache=yes upgrade=dist
 
 - name: install base pkgs
