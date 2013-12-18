@@ -16,8 +16,14 @@
 
 - name: load wp-config.php
   copy: src=files/var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php
-  notify:
-  - restart apache
 
 - name: add ssh to install plugins
   apt: pkg=libssh2-php state=present
+
+- name: give write access to www-data
+  shell: chown www-data /var/www/wordpress/wp-content
+
+- name: increase upload limit
+  copy: src=files/etc/apache2/php.ini dest=/etc/apache2/php.ini
+  notify:
+  - restart apache
