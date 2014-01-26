@@ -5,9 +5,9 @@ Vagrant.configure("2") do |config|
   #config.vm.network :public_network, bridge: "en0: Wi-Fi (AirPort)"
   config.vm.network :private_network, ip: "192.168.2.84"
 
-  config.vm.provider :virtualbox do |vb|
-    vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
-  end
+  #config.vm.provider :virtualbox do |vb|
+    #vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+  #end
 
   config.vm.provision "ansible" do |ansible|
     ansible.playbook = "vagrant.yml"

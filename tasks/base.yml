@@ -12,6 +12,7 @@
   - nodejs
   - daemon
   - vim
+  - rtorrent
 
 - name: setup authorized_keys
   copy: src=./files/authorized_keys dest={{ pwd }}/.ssh/authorized_keys
