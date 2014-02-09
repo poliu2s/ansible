@@ -16,6 +16,6 @@
   - wordpress
 
   tasks:
-#  - name: reboot the server
-#    command: reboot
-#    when: isFirstRun is defined
+  - name: reboot the server
+    command: reboot
+    when: isFirstRun is defined
