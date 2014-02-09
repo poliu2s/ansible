@@ -1,0 +1,6 @@
+- name: mysql
+  apt: pkg={{ item }}
+  with_items:
+  - mysql-server
+  - libapache2-mod-auth-mysql
+

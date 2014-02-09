@@ -1,8 +1,6 @@
-- name: mysql
+- name: phpmyadmin
   apt: pkg={{ item }}
   with_items:
-  - mysql-server
-  - libapache2-mod-auth-mysql
   - php5-mysql
   - phpmyadmin
 
@@ -10,6 +8,7 @@
   shell: echo 'Include /etc/phpmyadmin/apache.conf' >> /etc/apache2/apache2.conf
 
 - name: default allow no password
-  copy: src=files/etc/phpmyadmin/config.inc.php dest=/etc/phpmyadmin/config.inc.php
-  notify:
-  - restart apache
+  copy: src=etc/phpmyadmin/config.inc.php dest=/etc/phpmyadmin/config.inc.php
+
+- name: restart apache
+  service: name=apache2 state=restarted

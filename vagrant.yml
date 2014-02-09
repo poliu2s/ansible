@@ -5,7 +5,6 @@
     cloud: false
     pwd: /home/vagrant
 
-
   user: vagrant
   sudo: yes
 
