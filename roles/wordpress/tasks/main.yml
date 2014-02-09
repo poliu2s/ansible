@@ -8,14 +8,14 @@
   shell: mv {{ pwd }}/wordpress /var/www/wordpress
 
 - name: setup mysql wp
-  copy: src=files/var/www/wordpress/wordpress-mysql dest=/var/www/wordpress/wordpress-mysql
+  copy: src=var/www/wordpress/wordpress-mysql dest=/var/www/wordpress/wordpress-mysql
 
 - name: mysql script
   shell: mysql -u root < /var/www/wordpress/wordpress-mysql
   ignore_errors: yes
 
 - name: load wp-config.php
-  copy: src=files/var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php
+  copy: src=var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php
 
 - name: add ssh to install plugins
   apt: pkg=libssh2-php state=present
@@ -24,6 +24,7 @@
   shell: chown www-data /var/www/wordpress/wp-content
 
 - name: increase upload limit
-  copy: src=files/etc/apache2/php.ini dest=/etc/apache2/php.ini
-  notify:
-  - restart apache
+  copy: src=etc/apache2/php.ini dest=/etc/apache2/php.ini
+
+- name: restart apache
+  service: name=apache2 state=restarted

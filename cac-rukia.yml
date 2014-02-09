@@ -1,14 +1,19 @@
 ---
 - hosts: rukia
+  user: root
+  sudo: yes
+
+  vars_files:
+  - ./secrets/test.yml
+
   vars:
     hostname: rukia
     cloud: true
     pwd: /root
-  user: root
-  sudo: yes
+
   roles:
-  - phpmyadmin
+  - mysql
 
   tasks:
-  - name: reboot the server
-    command: reboot
+#  - name: reboot the server
+#    command: reboot
