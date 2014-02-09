@@ -1,30 +1,43 @@
 - name: wordpress
   shell: wget http://wordpress.org/latest.tar.gz
+  when: isFirstRun
 
 - name: unzip tar
   shell: tar -xvzf {{ pwd }}/latest.tar.gz
+  when: isFirstRun
+
+- name: clean up tar
+  shell: rm latest.tar.gz
+  when: isFirstRun
 
 - name: mv wp
   shell: mv {{ pwd }}/wordpress /var/www/wordpress
+  when: isFirstRun
 
 - name: setup mysql wp
   copy: src=var/www/wordpress/wordpress-mysql dest=/var/www/wordpress/wordpress-mysql
+  when: isFirstRun
 
 - name: mysql script
   shell: mysql -u root < /var/www/wordpress/wordpress-mysql
-  ignore_errors: yes
+  when: isFirstRun
 
 - name: load wp-config.php
   copy: src=var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php
+  when: isFirstRun
 
 - name: add ssh to install plugins
   apt: pkg=libssh2-php state=present
+  when: isFirstRun
 
 - name: give write access to www-data
   shell: chown www-data /var/www/wordpress/wp-content
+  when: isFirstRun
 
 - name: increase upload limit
   copy: src=etc/apache2/php.ini dest=/etc/apache2/php.ini
+  when: isFirstRun
 
 - name: restart apache
   service: name=apache2 state=restarted
+  when: isFirstRun
