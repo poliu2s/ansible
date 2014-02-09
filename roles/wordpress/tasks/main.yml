@@ -41,14 +41,14 @@
   when: isFirstRun is defined
 
 - name: copy profession
-  copy: src=../../../secrets/files/profession.zip dest=/var/www/wordpress/wp-content/plugins/profession.zip
+  copy: src=../../../secrets/files/profession.zip dest=/var/www/wordpress/wp-content/themes/profession.zip
   when: isFirstRun is defined
 
 - name: unzip profession
-  shell: unzip /var/www/wordpress/wp-content/plugins/profession.zip
+  shell: unzip /var/www/wordpress/wp-content/themes/profession.zip
 
 - name: clean profession
-  shell: rm /var/www/wordpress/wp-content/plugins/profession.zip
+  shell: rm /var/www/wordpress/wp-content/themes/profession.zip
 
 - name: restart apache
   service: name=apache2 state=restarted
