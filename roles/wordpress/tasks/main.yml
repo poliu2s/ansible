@@ -1,43 +1,43 @@
 - name: wordpress
   shell: wget http://wordpress.org/latest.tar.gz
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: unzip tar
   shell: tar -xvzf {{ pwd }}/latest.tar.gz
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: clean up tar
   shell: rm latest.tar.gz
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: mv wp
   shell: mv {{ pwd }}/wordpress /var/www/wordpress
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: setup mysql wp
   copy: src=var/www/wordpress/wordpress-mysql dest=/var/www/wordpress/wordpress-mysql
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: mysql script
-  shell: mysql -u root < /var/www/wordpress/wordpress-mysql
-  when: isFirstRun
+  shell: mysql -u root --password={{ mysql_password }} < /var/www/wordpress/wordpress-mysql
+  when: isFirstRun is defined
 
 - name: load wp-config.php
   copy: src=var/www/wordpress/wp-config.php dest=/var/www/wordpress/wp-config.php
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: add ssh to install plugins
   apt: pkg=libssh2-php state=present
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: give write access to www-data
   shell: chown www-data /var/www/wordpress/wp-content
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: increase upload limit
   copy: src=etc/apache2/php.ini dest=/etc/apache2/php.ini
-  when: isFirstRun
+  when: isFirstRun is defined
 
 - name: restart apache
   service: name=apache2 state=restarted
-  when: isFirstRun
+  when: isFirstRun is defined

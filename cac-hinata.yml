@@ -1,10 +1,20 @@
 ---
 - hosts: hinata
+  user: root
+  sudo: yes
+
+  vars_files:
+  - ./secrets/production.yml
+
   vars:
     hostname: hinata
     cloud: true
     pwd: /root
-  user: root
-  sudo: yes
+
   roles:
   - common
+
+  tasks:
+  - name: reboot the server
+    command: reboot
+    when: isFirstRun is defined

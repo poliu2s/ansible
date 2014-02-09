@@ -11,6 +11,14 @@ All boxes are running on Ubuntu 12.04 LTS hosted by CloudAtCost (100 Mbit Networ
 * Hinata: 1 Xeon vCPU, 512MB ECC RAM, 10GB SSD
 * Mikasa: 4 Xeon vCPU, 2GB ECC RAM, 40GB SSD
 
+### Initial setup
+
+Use the tag "isFirstRun" when spinning up a box for the first time:
+
+```bash
+ansible-playbook -i inventories/hosts cac-rukia.yml --extra-vars "isFirstRun=True"
+```
+
 
 ### Secrets
 

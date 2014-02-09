@@ -17,4 +17,4 @@
   tasks:
   - name: reboot the server
     command: reboot
-    when: isFirstRun
+    when: isFirstRun is defined
