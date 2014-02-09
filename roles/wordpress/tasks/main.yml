@@ -40,11 +40,14 @@
   copy: src=etc/apache2/php.ini dest=/etc/apache2/php.ini
   when: isFirstRun is defined
 
-- name: profession
-  file: path=/var/www/wordpress/wp-content/themes/profession state=directory
-
 - name: unzip profession
-  unarchive: src=../../../secrets/files/profession.zip dest=/var/www/wordpress/wp-content/themes/profession
+  unarchive: src=../../../secrets/files/profession.zip dest=/var/www/wordpress/wp-content/themes
+
+- name: unzip contact
+  unarchive: src=plugins/contact-form-7.3.7.zip dest=/var/www/wordpress/wp-content/plugins
+
+- name: unzip layerslider
+  unarchive: src=plugins/LayerSlider.zip dest=/var/www/wordpress/wp-content/plugins
 
 - name: restart apache
   service: name=apache2 state=restarted
