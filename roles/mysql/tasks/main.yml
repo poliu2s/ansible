@@ -1,6 +1,8 @@
-- name: mysql
+- name: install mysql
   apt: pkg={{ item }}
   with_items:
   - mysql-server
   - libapache2-mod-auth-mysql
 
+- name: set up password
+  mysql_user: name={{ mysql_user }} host=localhost password={{ mysql_password }}
