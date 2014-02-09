@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ansible.iws" />
@@ -43,7 +43,7 @@
     <file path="$PROJECT_DIR$/roles/common/tasks/main.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1391910810833" ignored="false" />
     <file path="/.gitattributes" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1391911001774" ignored="false" />
     <file path="/test.yml" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1391911038955" ignored="false" />
-    <file path="/.gitignore" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1391911316196" ignored="false" />
+    <file path="/.gitignore" changelist="90d9bc0d-88ee-4e09-a4e9-e2ff97f3bc5c" time="1391911381766" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="14" selection-end="14" vertical-scroll-proportion="0.021156559">
+            <state line="2" column="5" selection-start="20" selection-end="20" vertical-scroll-proportion="0.042313118">
               <folding />
             </state>
           </provider>
@@ -546,7 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="14" selection-end="14" vertical-scroll-proportion="0.021156559">
+        <state line="2" column="5" selection-start="20" selection-end="20" vertical-scroll-proportion="0.042313118">
           <folding />
         </state>
       </provider>
