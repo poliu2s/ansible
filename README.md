@@ -3,11 +3,11 @@ Ansible Project
 
 This repo describes my server configurations put into source control with [Ansible 1.4.1](http://www.ansible.com/home) for automation.
 
-All boxes are running on Ubuntu 12.04 LTS hosted by CloudAtCost
+All boxes are running on Ubuntu 12.04 LTS hosted by CloudAtCost.
 
 ### Secrets
 
-This repository includes some 'secret' information using [git-crypt](https://www.agwa.name/projects/git-crypt/)
+This repository includes some 'secret' information using [git-crypt](https://www.agwa.name/projects/git-crypt/).
 
 Alternatively, git-crypt can be installed via [homebrew](http://brew.sh):
 
