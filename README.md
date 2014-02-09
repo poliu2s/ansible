@@ -42,4 +42,6 @@ That's all you need to do - after running git-crypt init, you can use git normal
 
 A random keyfile was originally generated like this:
 
-`git-crypt keygen ~/.ssh/git-crypt-ansible`
+```
+git-crypt keygen ~/.ssh/git-crypt-ansible
+```
