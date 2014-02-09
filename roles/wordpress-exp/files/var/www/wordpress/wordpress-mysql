@@ -1,4 +1,0 @@
-CREATE DATABASE wordpress;
-GRANT ALL PRIVILEGES ON wordpress.* to "wordpressuser"@"localhost" IDENTIFIED BY "selena";
-FLUSH PRIVILEGES;
-EXIT
