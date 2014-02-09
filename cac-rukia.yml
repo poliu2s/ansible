@@ -13,6 +13,7 @@
 
   roles:
   - wordpress
+  - lxl
 
   tasks:
   - name: reboot the server
