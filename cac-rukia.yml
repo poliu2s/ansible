@@ -16,6 +16,6 @@
   - lxl
 
   tasks:
-  - name: reboot the server
+  - name: reboot
     command: reboot
     when: isFirstRun is defined
