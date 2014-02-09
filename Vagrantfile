@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "ansible" do |ansible|
     ansible.playbook = "vagrant.yml"
-    ansible.inventory_path = "hosts"
+    ansible.inventory_path = "./inventories/hosts"
     #ansible.verbose = 'vvvv'
     #ansible.host_key_checking = "false"
   end

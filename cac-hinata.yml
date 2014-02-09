@@ -4,7 +4,7 @@
   sudo: yes
 
   vars_files:
-  - ./secrets/production.yml
+  - ./secrets/vars/production.yml
 
   vars:
     hostname: hinata

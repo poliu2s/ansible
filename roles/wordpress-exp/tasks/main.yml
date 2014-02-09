@@ -40,9 +40,18 @@
   copy: src=etc/apache2/php.ini dest=/etc/apache2/php.ini
   when: isFirstRun is defined
 
+- name: install wp-cli
+  command: wget https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+
+- name: make wp-cli executable
+  command: chmod 755 {{ pwd }}/wp-cli.phar
+
+- name: copy setup script
+  template: src=wp-cli-setup.sh.j2 dest=/root/wp-cli-setup.sh
+
 - name: setup wp
   shell: /bin/bash {{ pwd }}/wp-cli-setup.sh
 
-- name: restart apache
-  service: name=apache2 state=restarted
-  when: isFirstRun is defined
+#- name: restart apache
+#  service: name=apache2 state=restarted
+#  when: isFirstRun is defined

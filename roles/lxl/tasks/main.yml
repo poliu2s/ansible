@@ -1,5 +1,5 @@
 - name: lxl1
-  file: path=/root/reveal.js state=absent
+  file: path={{ pwd }}/reveal.js state=absent
 
 - name: lxl2
   file: path=/var/www/liuxuelun state=directory
