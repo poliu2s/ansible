@@ -3,7 +3,14 @@ Ansible Project
 
 This repo describes my server configurations put into source control with [Ansible 1.4.1](http://www.ansible.com/home) for automation.
 
-All boxes are running on Ubuntu 12.04 LTS hosted by CloudAtCost.
+All boxes are running on Ubuntu 12.04 LTS hosted by CloudAtCost (100 Mbit Network).
+
+### Server info
+
+* Rukia: 1 Xeon vCPU, 512MB ECC RAM, 10GB SSD
+* Hinata: 1 Xeon vCPU, 512MB ECC RAM, 10GB SSD
+* Mikasa: 4 Xeon vCPU, 512MB ECC RAM, 40GB SSD
+
 
 ### Secrets
 
