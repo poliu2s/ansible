@@ -9,7 +9,7 @@
   vars:
     hostname: precise64
     cloud: false
-    pwd: /root/vagrant
+    pwd: /home/vagrant
     isFirstRun: true
 
   roles:

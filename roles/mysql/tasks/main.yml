@@ -6,3 +6,4 @@
 
 - name: set up password
   mysql_user: name={{ mysql_user }} host=localhost password={{ mysql_password }}
+  when: isFirstRun is defined
