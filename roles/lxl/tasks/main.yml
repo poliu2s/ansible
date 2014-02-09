@@ -14,10 +14,10 @@
   shell: mv reveal.js/ /var/www/liuxuelun
 
 - name: lxl6
-  copy: src=files/web/lxl/main.html dest=/var/www/liuxuelun/index.html
+  copy: src=var/www/main.html dest=/var/www/liuxuelun/index.html
 
 - name: lxl7
-  copy: src=files/web/lxl/0{{ item }}.html dest=/var/www/liuxuelun/0{{ item }}.html
+  copy: src=var/www/0{{ item }}.html dest=/var/www/liuxuelun/0{{ item }}.html
   with_items:
   - 1
   - 2
@@ -25,4 +25,4 @@
   - 4
 
 - name: lxl8
-  copy: src=files/web/lxl/default.css dest=/var/www/liuxuelun/css/theme/default.css
+  copy: src=var/www/default.css dest=/var/www/liuxuelun/css/theme/default.css

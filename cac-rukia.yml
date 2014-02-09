@@ -12,8 +12,10 @@
     pwd: /root
 
   roles:
-  - mysql
+  - lxl
 
   tasks:
-#  - name: reboot the server
-#    command: reboot
+  - name: reboot the server
+    command: reboot
+    tags:
+    - r
