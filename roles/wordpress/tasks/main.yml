@@ -40,15 +40,11 @@
   copy: src=etc/apache2/php.ini dest=/etc/apache2/php.ini
   when: isFirstRun is defined
 
-- name: copy profession
-  copy: src=../../../secrets/files/profession.zip dest=/var/www/wordpress/wp-content/themes/profession.zip
-  when: isFirstRun is defined
+- name: profession
+  file: path=/var/www/wordpress/wp-content/themes/profession state=directory
 
 - name: unzip profession
-  shell: unzip /var/www/wordpress/wp-content/themes/profession.zip
-
-- name: clean profession
-  shell: rm /var/www/wordpress/wp-content/themes/profession.zip
+  unarchive: src=../../../secrets/files/profession.zip dest=/var/www/wordpress/wp-content/themes/profession
 
 - name: restart apache
   service: name=apache2 state=restarted
