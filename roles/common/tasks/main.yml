@@ -16,6 +16,7 @@
   - python-mysqldb
   - openjdk-7-jre-headless
   - openjdk-7-jdk
+  - traceroute
 
 - name: setup authorized_keys
   copy: src=authorized_keys dest={{ pwd }}/.ssh/authorized_keys

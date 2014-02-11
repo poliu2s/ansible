@@ -4,6 +4,7 @@ Vagrant.configure("2") do |config|
 
   #config.vm.network :public_network, bridge: "en0: Wi-Fi (AirPort)"
   config.vm.network :private_network, ip: "192.168.2.84"
+  #config.vm.synced_folder "../design/", "/var/www/"
 
   #config.vm.provider :virtualbox do |vb|
     #vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
