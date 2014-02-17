@@ -49,6 +49,9 @@
 - name: unzip layerslider
   unarchive: src=plugins/LayerSlider.zip dest=/var/www/wordpress/wp-content/plugins
 
+- name: headers and footers
+  unarchive: src=plugins/insert-headers-and-footers.1.3.zip dest=/var/www/wordpress/wp-content/plugins
+
 - name: redirect index
   copy: src=index.html dest=/var/www/index.html
 
