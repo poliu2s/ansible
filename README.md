@@ -13,10 +13,16 @@ All boxes are running on Ubuntu 12.04 LTS hosted by CloudAtCost (100 Mbit Networ
 
 ### Initial setup
 
-Use the tag "isFirstRun" when spinning up a box for the first time:
+Use the tag "isFirstRun" when spinning up a box for the first time on the cloud:
 
 ```bash
-ansible-playbook -i inventories/hosts cac-rukia.yml --extra-vars "isFirstRun=True"
+ansible-playbook -i inventories/production cac-rukia.yml --extra-vars "isFirstRun=True"
+```
+
+Vagrant boxes were developed on Oracle VirtualBox 4.3.6. The Vagrantfile is broken into multi-machines for testing each setup. Boxes can be spun up with:
+
+```
+vagrant up <project-name>
 ```
 
 
@@ -44,4 +50,12 @@ A random keyfile was originally generated like this:
 
 ```
 git-crypt keygen ~/.ssh/git-crypt-ansible
+```
+
+### Tips
+
+Consider syncing your VirtualBox guest additions using a very nice plugin called [Vbguest](https://github.com/dotless-de/vagrant-vbguest). To install, you type this one time in the directory that also keeps your `Vagrantfile`:
+
+```
+vagrant plugin install vagrant-vbguest
 ```
