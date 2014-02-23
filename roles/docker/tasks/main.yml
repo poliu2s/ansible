@@ -1,0 +1,18 @@
+- name: update base
+  apt: update_cache=yes upgrade=dist
+
+- name: install base pkgs
+  apt: pkg={{ item }} state=present
+  with_items:
+  - linux-image-generic-lts-raring  #Install backported kernel
+  - linux-headers-generic-lts-raring
+
+- name: reboot into backported kernel
+  shell: /sbin/reboot
+
+- name: wait machine to lose ssh
+  wait_for: port=22 state=stopped
+
+- name: wait for machine to reboot
+  wait_for: port=22 timeout=500
+

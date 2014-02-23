@@ -1,5 +1,5 @@
 ---
-- hosts: vagrant
+- hosts: docker
   user: vagrant
   sudo: yes
 
@@ -13,7 +13,7 @@
     isFirstRun: true
 
   roles:
-  - common
+  - docker
 
   tasks:
   - name: reboot the server

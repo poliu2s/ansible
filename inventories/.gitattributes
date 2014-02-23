@@ -1,1 +1,1 @@
-hosts filter=git-crypt diff=git-crypt
+production filter=git-crypt diff=git-crypt
