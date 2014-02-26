@@ -10,6 +10,8 @@ All boxes are running on Ubuntu 12.04 LTS hosted by CloudAtCost (100 Mbit Networ
 * Rukia: 1 Xeon vCPU, 512MB ECC RAM, 10GB SSD
 * Hinata: 1 Xeon vCPU, 512MB ECC RAM, 10GB SSD
 * Mikasa: 4 Xeon vCPU, 2GB ECC RAM, 40GB SSD
+* Winry: 2 Xeon vCPU, 1GB ECC RAM, 20GB SSD
+* Yoruichi: 2 Xeon vCPU, 1GB ECC RAM, 20GB SSD
 
 ### Initial setup
 

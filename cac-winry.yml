@@ -1,0 +1,20 @@
+---
+- hosts: winry
+  user: root
+  sudo: yes
+
+  vars_files:
+  - ./secrets/vars/production.yml
+
+  vars:
+    hostname: winry
+    cloud: true
+    pwd: /root
+
+  roles:
+  - common
+
+  tasks:
+  - name: reboot
+    command: reboot
+    when: isFirstRun is defined

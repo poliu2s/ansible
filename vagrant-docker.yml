@@ -15,7 +15,6 @@
   roles:
   - docker
 
-  tasks:
-  - name: reboot the server
-    command: reboot
-    when: isFirstRun is defined
+  handlers:
+  - name: post shutdown pause
+    pause: seconds=30

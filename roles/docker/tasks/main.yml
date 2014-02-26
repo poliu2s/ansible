@@ -9,10 +9,10 @@
 
 - name: reboot into backported kernel
   shell: /sbin/reboot
+  delay: 20
 
-- name: wait machine to lose ssh
-  wait_for: port=22 state=stopped
+- name: add docker repository key to local keychain
+  shell: apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
 
-- name: wait for machine to reboot
-  wait_for: host={{ inventory_hostname }}  port=22 delay=500 timeout=1000 state=stopped
-
+- name: install lxc
+  shell: curl -s https://get.docker.io/ubuntu/ | sudo sh
