@@ -1,0 +1,21 @@
+---
+- hosts: rukia
+  user: vagrant
+  sudo: yes
+
+  vars_files:
+  - ./secrets/vars/production.yml
+
+  vars:
+    hostname: rukia
+    cloud: false
+    pwd: /root
+
+  roles:
+  - wordpress
+  - lxl
+
+  tasks:
+  - name: reboot
+    command: reboot
+    when: isFirstRun is defined
