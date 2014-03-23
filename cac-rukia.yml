@@ -16,6 +16,3 @@
   - lxl
 
   tasks:
-  - name: reboot
-    command: reboot
-    when: isFirstRun is defined

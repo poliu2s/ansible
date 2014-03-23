@@ -37,18 +37,6 @@
   template: src=hosts.j2 dest=/etc/hosts
   when: cloud
 
-- name: add rc.local
-  copy: src=etc/rc.local dest=/etc/rc.local
-  when: cloud
-
-- name: cloudatcost delete daily cron
-  shell: rm -rf /etc/cron.daily/*
-  when: cloud
-
-- name: fix dns auto-gen
-  copy: src=etc/resolvconf/resolv.conf.d/base dest=/etc/resolvconf/resolv.conf.d/base
-  when: cloud
-
-- name: dns auto-generated file
-  copy: src=etc/resolv.conf dest=/etc/resolv.conf
-  when: cloud
+- name: reboot
+  command: reboot
+  when: isFirstRun is defined
