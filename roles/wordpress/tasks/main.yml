@@ -15,6 +15,16 @@
   ignore_errors: yes
   when: isFirstRun is defined
 
+- name: install mysql
+  apt: pkg={{ item }}
+  with_items:
+  - mysql-server
+#  - libapache2-mod-auth-mysql
+
+- name: set up password
+  mysql_user: name={{ mysql_user }} host=localhost password={{ mysql_password }}
+  when: isFirstRun is defined
+
 - name: setup mysql wp
   copy: src=var/www/wordpress/wordpress-mysql dest=/var/www/wordpress/wordpress-mysql
   when: isFirstRun is defined
@@ -37,7 +47,7 @@
   when: isFirstRun is defined
 
 - name: increase upload limit
-  copy: src=etc/apache2/php.ini.j2 dest=/etc/apache2/php.ini
+  copy: src=etc/apache2/php.ini dest=/etc/apache2/php.ini
   when: isFirstRun is defined
 
 - name: unzip profession
