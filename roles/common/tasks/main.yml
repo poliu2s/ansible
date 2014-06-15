@@ -1,5 +1,5 @@
 - name: update base
-  apt: update_cache=yes upgrade=dist
+  apt: update_cache=yes upgrade=yes
 
 - name: install base pkgs
   apt: pkg={{ item }} state=present
