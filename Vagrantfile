@@ -64,8 +64,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "base" do |base|
       base.vm.box = "precise64"
-      base.vm.network :private_network, ip: "192.168.2.84"
-      base.vm.synced_folder "/Users/poliu/projects/rise/api/logs", "/home/vagrant/logs"
+      base.vm.network :private_network, ip: "192.168.2.83"
 
       base.vm.provision "ansible" do |ansible|
         ansible.playbook = "vagrant.yml"
@@ -74,7 +73,6 @@ Vagrant.configure("2") do |config|
         #ansible.host_key_checking = "false"
 
       end
-
 
       #Extra goodies for reference
       #base.vm.network :forwarded_port, guest: 80, host: 8080
